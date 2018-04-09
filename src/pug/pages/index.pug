@@ -2,12 +2,20 @@ doctype html
 html(lang="ru-RU")
     head
         title Template Project
+        //build:css css/main.css
         link(rel="stylesheet" type='text/css' href="static/css/main.css")
+        //endbuild
+        //build:css static/css/vendor.css
         // bower:css
         // endbower
+        //endbuild
     body
         h1 Hello World!
-
+    //build:js js/main.js
     script(src="static/js/main.js")
+    //endbuild
+
+    //build:js static/js/vendor.js
     // bower:js
     // endbower
+    //endbuild
