@@ -1,0 +1,31 @@
+{
+  "name": "frontend_template_project",
+  "description": "frontend template project",
+  "main": "index.js",
+  "authors": [
+    "Dmitriy Prokushev"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "overrides": {
+    "normalize.css": {
+      "main": [
+        "./normalize.css"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  }
+}
